@@ -1,0 +1,40 @@
+.stopwatch-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 7px;
+    border: 2px solid #646cff;
+}
+.time-container{
+    position: relative;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#timer{
+    font-size: 6rem;
+}
+.btn-container{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.btn-container button{
+    padding: 16px 32px;
+}
